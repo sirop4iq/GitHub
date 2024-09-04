@@ -13,9 +13,7 @@ struct ContentView: View {
             Button("Open GitHub") {
                 
             }
-            Button("Open GitHub") {
-                
-            }
+           Text("First commit")
 
             Button("Open GitHub") {
                 
