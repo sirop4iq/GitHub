@@ -13,6 +13,17 @@ struct ContentView: View {
             Button("Open GitHub") {
                 
             }
+            Button("Open GitHub") {
+                
+            }
+
+            Button("Open GitHub") {
+                
+            }
+            Button("Open GitHub") {
+                
+            }
+
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
