@@ -14,6 +14,7 @@ struct ContentView: View {
                 
             }
            Text("First commit")
+            Text("Secondz commit")
 
             Button("Open GitHub") {
                 
