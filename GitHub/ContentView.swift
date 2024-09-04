@@ -10,18 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Button("Open GitHub") {
-                
-            }
-           Text("First commit")
-            Text("Secondz commit")
-
-            Button("Open GitHub") {
-                
-            }
-            Button("Open GitHub") {
-                
-            }
+       
 
             Image(systemName: "globe")
                 .imageScale(.large)
@@ -29,6 +18,7 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        Spacer()
     }
 }
 
