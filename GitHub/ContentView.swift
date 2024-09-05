@@ -14,7 +14,7 @@ struct ContentView: View {
             ScrollView{
                 Text("Hello, world!")
                 .frame(width: 200,height: 200 )
-                ForEach(0..<100) { index in
+                ForEach(0..<90) { index in
 Image(systemName:"globe")
                     Text("\(index)")
                 }
