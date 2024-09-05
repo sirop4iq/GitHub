@@ -9,20 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Spacer()
-
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text("Fix code!")
+        ZStack {
+            
+            ScrollView{
+                Text("Hello, world!")
+                .frame(width: 200,height: 200 )
+                ForEach(0..<100) { index in
+Image(systemName:"globe")
+                    Text("\(index)")
+                }
+            }
+            
+            
         }
-        Spacer()
+      
         .padding()
   
-       
-
+     
     }
 }
 
